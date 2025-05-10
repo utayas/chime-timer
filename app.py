@@ -3,9 +3,6 @@ import time
 import base64
 import os
 
-st.title("チャイムタイマー")
-
-
 # チャイムファイル一覧取得
 def list_wav_files():
     return [f for f in os.listdir() if f.endswith(".wav")]
